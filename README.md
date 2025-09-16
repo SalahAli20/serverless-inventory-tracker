@@ -40,7 +40,7 @@ It uses **Amazon S3, Lambda, DynamoDB, and SNS** to process inventory files, sto
 
 ---
 
-## 🚀 Step-by-Step Instructions
+## Step-by-Step Instructions
 
 Follow these steps to deploy the system in your AWS account.
 
