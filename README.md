@@ -9,7 +9,7 @@ It uses **Amazon S3, Lambda, DynamoDB, and SNS** to process inventory files, sto
 
 ---
 
-## 🏗 Architecture Overview
+## Architecture Overview
 
 1. **S3 Upload**  
    - Stores upload inventory `.csv` files to an Amazon S3 bucket.  
@@ -92,7 +92,7 @@ cd serverless-inventory-tracker
    - **Destination:** Lambda function → `Load-Inventory`  
 4. Save changes.  
 
-✅ Now whenever a file is uploaded to S3, the Lambda will process it and insert data into DynamoDB.  
+Now whenever a file is uploaded to S3, the Lambda will process it and insert data into DynamoDB.  
 
 ---
 
